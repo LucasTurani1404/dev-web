@@ -2,65 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 body{
     background-color: darkgray;
-
 }
-
-table{
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td{
-    padding: 12px, 15px;
-    text-align: left;
-    border-bottom: 1px solid #dddd;
-}
-
-th{
-    background-color: #1f4e79;
-    color: white;
-}
-tr:hover{
-    background-color: #f5f5f5;
-}
-form{
-    max-width: 500px;
-    margin: 0 auto;
-}
-label{
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
-}
-input, select, textarea{
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
-input:focus, textarea:focus{
-    border-color: #2e75b6;
-    outline: none;
-    box-shadow: 0 0 3px rgba(46, 117, 182, 0.5);
-}
-button{
-    margin-top: 20px;
-    padding: 12px 30px;
-    background-color: #1f4e79;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.5s linear;
-    /* depois do s usar: ease, linear, ease-in, ease out e ease-in-out */
-}
-button:hover{
-    background-color: #2e75b6;
-    transform: translate(7px, -5px);
+.tag{
+    display: inline-block;
+    width: 120px;
+    padding-right: 15px 10px;
+    margin: 5px;
+    background-color: #eee8fa;
+    color: #4d347a;
+    text-align: center;
+    border-radius: 8px;
+    
 }
