@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Store - Cadastro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="topo">
+    <h1>🎮Game Store</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="index.html#jogos">jogos</a>
+        <a href="cadastro.html">Cadastrar</a>
+    </nav>
+</header>
+<main class="area-cadastro">
+<form id="formCadastro">
+    <h2>Crie sua conta</h2>
+    <p>Faça parte da comunidade Game Store!</p><br><br>
+    <label for="nome">Nome completo:</label><br><br>
+    <input type="text" id="nome" placeholder="Digite seu nome " required><br><br>
+
+<label for="email">Email:</label><br><br>
+<input type="email" id="email" placeholder="seu@email.com"><br><br>
+
+
+</form>
+</main>
+
+</body>
+</html>
