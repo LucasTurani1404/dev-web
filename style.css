@@ -8,10 +8,10 @@ background-color: silver;
 
 :root{
  --cor-fundo: #f1f5f9;
- --cor-card: rgb(248,130,40);
+ --cor-card: gray;
  --cor-borda: black;
  --cor-botao: #2563eb;
- --cor-hover: yellow;
+ --cor-hover: green;
  --cor--texto: white;
 
  --espacamento: 20px;
@@ -43,4 +43,17 @@ header{
     border-radius: var(--arredondamento);
     flex: 1;
     text-align: center;
+}
+button{
+    background-color: var(--cor-botao);
+    color: var(--cor--texto);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: var(--transicao);
+}
+button:hover{
+    background-color: var(--cor-hover);
+    transform: translateX(5px);
 }
